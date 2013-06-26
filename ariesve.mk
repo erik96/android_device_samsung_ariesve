@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
     $(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/system/bin/postrecoveryboot.sh \
-    $(LOCAL_PATH)/ramdisk/fstab.qcom:recovery/root/fstab.qcom \
+    $(LOCAL_PATH)/config/fstab.qcom:recovery/root/fstab.qcom \
 
 # Input device calibration files
 PRODUCT_COPY_FILES += \
